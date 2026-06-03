@@ -41,3 +41,39 @@
     margin-bottom: 40px;
 }
 
+@media screen and (min-width: 768px) {
+    .destination-items {
+        padding:0 60px;
+    }
+    
+    .img-item.tokyo {
+        background-image: url(../img/tokyo-tablet-desk.jpg);
+        height: 452px;
+    }
+
+    .img-item.osaka {
+        background-image: url(../img/osaka-tablet-desk.jpg);
+        height: 452px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .destination-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+    }
+    
+    .destination-items .item {
+        height: 750px;
+        width: 588px;
+        flex-direction: column;
+        justify-content: center; 
+        gap: 40px;  
+    }
+
+    .img-item {
+        height: 452px;
+        width: 588px;
+    }
+}

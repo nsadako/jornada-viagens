@@ -81,3 +81,7 @@ body {
     background-color: var(--primary-color);
   }
 }
+
+@media screen and (min-width: 1440px) {
+  
+}
