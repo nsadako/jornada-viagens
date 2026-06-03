@@ -1,0 +1,27 @@
+.destination-items {
+    padding: 0 24px;
+}
+
+.destinations .item header {
+    display:block;
+    background-color: transparent;
+    position: static;
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+.destination-items .item h4 {
+    font-size: 28px;
+    font-weight: var(--titles-weight);
+}
+
+.destination-items .item p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.button--text {
+    text-align: center;
+}
+
