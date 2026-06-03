@@ -25,3 +25,19 @@
     text-align: center;
 }
 
+.img-item.tokyo {
+    background-image: url(../img/tokyo-mobile.jpg);
+    background-size: cover;
+    height: 360px;
+}
+
+.img-item.osaka{
+    background-image: url(../img/osaka-mobile.jpg);
+    background-size: cover;
+    height: 360px;
+}
+
+.destination-items .item .button {
+    margin-bottom: 40px;
+}
+
