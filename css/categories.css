@@ -1,3 +1,8 @@
+.categories .section-title {
+    width: 312px;
+    margin: 0 auto;
+}
+
 .categories-cards {
     display: flex;
     flex-direction: column;
@@ -36,6 +41,10 @@
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .categories .section-title {
+        width: 100%;
     }
 }
 
