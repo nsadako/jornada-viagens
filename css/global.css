@@ -39,6 +39,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.section {
+  width:312px;
+  margin:0 auto;
+}
+
 .section-title h2{
   font-size: 28px;
   font-weight: var(--titles-weight);
@@ -77,11 +82,18 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+  
+  .section {
+    width:900px;
+  }
+  
   .button:hover {
     background-color: var(--primary-color);
   }
 }
 
 @media screen and (min-width: 1440px) {
-  
+  .section {
+    width: 1200px;
+  }
 }
