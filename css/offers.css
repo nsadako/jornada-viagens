@@ -76,21 +76,18 @@
 
 @media screen and (min-width: 1024px) {
     .offers-card .card {
-        width: 420px;
-        height: 308px;
-    }
-
-    .offers-card .card header h3 {
-        font-size: 48px;
-    
+        width: 312px;
+        height: 288px;
     }
 
     .offers-card .card header span {  
         font-size: 40px;
     }
+
 }
 
 @media screen and (min-width: 1440px) {
+    
     .offers-card .card {
         width: 588px;
         height: 308px;
