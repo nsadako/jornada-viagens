@@ -80,6 +80,7 @@ section.hero {
   font-size: 20px;
   line-height: 32px;
   font-weight: var(--text-weight);
+  margin-bottom: 24px;
 }
 
 .button {
