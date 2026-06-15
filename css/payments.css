@@ -46,6 +46,7 @@
 
     .payments .content-container {
     display:flex;
+    justify-content: space-between;
     }
 
     .payments .content-container {
@@ -54,6 +55,7 @@
 
     .payments .content-container .image-content {
         width: 790px;
+        margin: 0;
     }
 
     .payments .content-container .text-content {
