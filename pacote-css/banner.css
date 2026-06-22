@@ -1,0 +1,18 @@
+.banner-japan .banner-container {
+    background-image: url(../pacotes-img/banner-japan-mobile.jpg);
+    background-size: cover;
+    height: 460px;
+}
+
+.banner-japan .banner-container h1 {
+    color: var(--background-primary-color);
+    font-size: 48px;
+}
+
+.banner-japan .banner-container hr{
+  width: 180px;  
+  height: 4px;
+  background-color: var(--secondary-color);
+  border:none;
+  margin: 16px 24px 32px;
+}  
