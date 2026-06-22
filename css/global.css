@@ -44,10 +44,11 @@ section {
   margin: 0 auto 88px;
 }
 
-section.hero, section.bottom-hero {
+section.hero, section.bottom-hero, section.banner-japan {
   width: 100%;
   margin: 0;
 }
+
 
 .section-title {
   width: 280px;

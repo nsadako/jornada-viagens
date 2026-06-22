@@ -79,6 +79,10 @@ nav {
     .navigation-menu li {
         margin:0;
     }
+
+    .list-links .travel-package {
+        text-decoration: underline;
+    }
 }
 
 @media screen and (min-width: 1024px) {
