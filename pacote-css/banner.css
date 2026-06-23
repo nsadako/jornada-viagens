@@ -1,7 +1,9 @@
 .banner-japan .banner-container {
     background-image: url(../pacotes-img/banner-japan-mobile.jpg);
     background-size: cover;
-    height: 460px;
+    height: 460px; 
+    padding: 65px 24px;
+    box-sizing: border-box;
 }
 
 .banner-japan .banner-container h1 {
@@ -9,10 +11,44 @@
     font-size: 48px;
 }
 
-.banner-japan .banner-container hr{
+.banner-japan .banner-container hr {
   width: 180px;  
   height: 4px;
   background-color: var(--secondary-color);
   border:none;
-  margin: 16px 24px 32px;
+  margin: 16px 0 32px;
 }  
+
+.banner-japan .banner-container p {
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--background-primary-color);
+}
+
+
+@media screen and (min-width: 768px) {
+    .banner-japan .banner-container {
+    background-image: url(../pacotes-img/banner-japan-tablet.jpg);
+    height: 620px;
+    padding: 210px 70px 110px 120px;
+    box-sizing: border-box;
+    }
+    
+
+    .banner-japan .banner-container p {
+        font-size: 32px;
+        line-height: 150%;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .banner-japan .banner-container {
+    background-image: url(../pacotes-img/banner-japan-desk.jpg);
+    padding: 160px 120px;   
+    }
+
+    .banner-japan .banner-container p {
+        width: 580px ;
+    }
+}
