@@ -61,7 +61,6 @@ section.hero, section.bottom-hero, section.banner-japan {
   margin: 0px;
   color: var(--text-primary-color);
   text-align: center;
-
 }
 
 .section-title hr {
@@ -70,6 +69,10 @@ section.hero, section.bottom-hero, section.banner-japan {
   background-color: var(--secondary-color);
   border:none;
   margin: 16px auto 32px;
+}
+
+.section-package {
+  margin-bottom: 88px;
 }
 
 .content-title{
@@ -82,6 +85,7 @@ section.hero, section.bottom-hero, section.banner-japan {
   font-size: 20px;
   line-height: 32px;
   font-weight: var(--text-weight);
+  margin: 24px 0;
 }
 
 .button {
@@ -96,6 +100,12 @@ section.hero, section.bottom-hero, section.banner-japan {
   text-decoration: none;
   line-height: 64px;
   text-align: center;
+}
+
+.payments-package .content-subtitle {
+  font-size: 28px;
+  font-weight: var(--titles-weight);
+  color: var(--background-tertiary-color);
 }
 
 
