@@ -2,7 +2,83 @@
     font-size: 40px;
 }
 
-
 .payments-package .button {
     width: 100%;
+    margin-bottom: 24px;
+}
+
+.section-title hr {
+    width: 180px;
+}
+
+.payments-package .image-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    height: 460px;
+    width: 100%;
+}
+
+.payments-package .image-content .image.first {
+    background: url(/jornada-viagens/pacotes-img/montagem-japao1-mobile.jpg) no-repeat;
+    background-size: cover; 
+}
+
+.payments-package .image-content .image.second {
+    background: url(/jornada-viagens/pacotes-img/montagem-japao2-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.payments-package .image-content .image.third {
+    background: url(/jornada-viagens/pacotes-img/montagem-japao3-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.payments-package .image-content .image.colspan-2 {
+    grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+
+    .payments-package .button { 
+        display: none;
+    }
+    
+    .payments-package .image-content {
+        height: 648px;
+    }
+
+    .payments-package  .image-content .image.first {
+    background: url(/jornada-viagens/pacotes-img/montagem-japao1-tablet.jpg) no-repeat;
+    background-size: cover;
+    }
+
+    .payments-package .image-content .image.second {
+    background: url(/jornada-viagens/pacotes-img/montagem-japao2-tablet.jpg) no-repeat;
+    background-size: cover;
+    }
+
+    .payments-package .image-content .image.third {
+    background: url(/jornada-viagens/pacotes-img/montagem-japao3-tablet.jpg) no-repeat;
+    background-size: cover;
+    height: 182px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .payments-package .content-container {
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .payments-package .content-container .payment-content {
+        flex-direction: column;
+        width: 360px;
+    }
+
+    .payments-package .content-container .image-content {
+        width: 790px;
+        margin: 0;
+    }
 }
