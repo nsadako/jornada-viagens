@@ -1,0 +1,5 @@
+.pre-rodape .hero-img {
+    background: url(../pacotes-img/hero-mobile.jpg) no-repeat;
+    background-size: cover;
+    height: 400px;
+}
