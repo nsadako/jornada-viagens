@@ -40,22 +40,25 @@
 
 @media screen and (min-width: 768px) {
 
+    .payments-package .content-container .image-content {
+        padding-bottom: 88px;
+    }
+
     .payments-package .button { 
         display: none;
     }
     
-    .payments-package .image-content {
-        height: 648px;
-    }
-
+   
     .payments-package  .image-content .image.first {
     background: url(/jornada-viagens/pacotes-img/montagem-japao1-tablet.jpg) no-repeat;
     background-size: cover;
+    height: 312px;
     }
 
     .payments-package .image-content .image.second {
     background: url(/jornada-viagens/pacotes-img/montagem-japao2-tablet.jpg) no-repeat;
     background-size: cover;
+    height: 312px;
     }
 
     .payments-package .image-content .image.third {
@@ -80,5 +83,6 @@
     .payments-package .content-container .image-content {
         width: 790px;
         margin: 0;
+        height: 460px;
     }
 }
