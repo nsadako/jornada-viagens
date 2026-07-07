@@ -1,0 +1,25 @@
+.pre-rodape {
+    width: 100%; 
+}
+
+.pre-rodape .hero-img {
+    background: url(../pacotes-img/hero-mobile.jpg) no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+    .pre-rodape .hero-img {
+        height: 400px;
+        background: url(../pacotes-img/hero-tablet.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .pre-rodape .hero-img {
+        height: 400px;
+        background: url(../pacotes-img/hero-desk.jpg) no-repeat;
+        background-size: cover;
+    }
+}
