@@ -1,17 +1,17 @@
-.banner-japan .banner-container {
-    background-image: url(../pacotes-img/banner-japan-mobile.jpg);
+.banner-japan .banner-img .banner-container {
+    background: url(../pacotes-img/banner-japan-mobile.jpg) no-repeat;
     background-size: cover;
     height: 460px; 
     padding: 65px 24px;
     box-sizing: border-box;
 }
 
-.banner-japan .banner-container h1 {
+.banner-japan .banner-img .banner-container h1 {
     color: var(--background-primary-color);
     font-size: 48px;
 }
 
-.banner-japan .banner-container hr {
+.banner-japan .banner-img .banner-container hr {
   width: 180px;  
   height: 4px;
   background-color: var(--secondary-color);
@@ -19,7 +19,7 @@
   margin: 16px 0 32px;
 }  
 
-.banner-japan .banner-container p {
+.banner-japan .banner-img .banner-container p {
     font-size: 20px;
     line-height: 32px;
     color: var(--background-primary-color);
@@ -27,15 +27,16 @@
 
 
 @media screen and (min-width: 768px) {
-    .banner-japan .banner-container {
-    background-image: url(../pacotes-img/banner-japan-tablet.jpg);
+    .banner-japan .banner-img .banner-container {
+    background: url(../pacotes-img/banner-japan-tablet.jpg) no-repeat;
+    background-size: cover;
     height: 620px;
     padding: 210px 70px 110px 120px;
     box-sizing: border-box;
     }
     
 
-    .banner-japan .banner-container p {
+    .banner-japan .banner-img.banner-container p {
         font-size: 32px;
         line-height: 150%;
     }
@@ -43,12 +44,19 @@
 
 
 @media screen and (min-width: 1440px) {
-    .banner-japan .banner-container {
-    background-image: url(../pacotes-img/banner-japan-desk.jpg);
-    padding: 160px 120px;   
+    
+    .banner-japan .banner-img {
+    background: url(../pacotes-img/banner-japan-desk.jpg) no-repeat;
+    background-size: cover;
     }
 
-    .banner-japan .banner-container p {
+    .banner-japan .banner-img .banner-container p {
         width: 580px ;
     }
 }
+
+@media screen and (min-width: 1920px) {
+    .banner-japan .banner-img .banner-container.section-package {
+        padding: 160px 350px; 
+    }
+}    
